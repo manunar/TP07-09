@@ -256,8 +256,15 @@ class Fraction:
         """
         if isinstance(other, int):
             other = Fraction(other, 1)
+
+            # Vérifier si other est une fraction
         if isinstance(other, Fraction):
-            diff = self - other
-            return abs(diff._num) == 1 and diff._den == self._den
+            # Calcul de l'adjacence
+            diff = abs(self._num * other._den - other._num * self._den)
+            return diff == 1  # Retour explicite de True ou False
+
+            # Lever une exception si other n'est pas valide
         raise TypeError("You can only compare adjacency with an int or another Fraction.")
+
+
 

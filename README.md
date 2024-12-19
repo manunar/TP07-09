@@ -1,0 +1,1 @@
+Lien vers video TP7 [ici](https://ephec-my.sharepoint.com/personal/he202422_students_ephec_be/_layouts/15/stream.aspx?id=%2Fpersonal%2Fhe202422_students_ephec_be%2FDocuments%2FTP07%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E92d0a3d1-cc68-401d-a577-3ab5e2cb7d96)  
